@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0DEBF0000000000000A0001 /* VQLoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DEFA0000000000000A0001 /* VQLoadingScreen.swift */; };
+		C0DEBF0000000000000A0002 /* VQWebPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DEFA0000000000000A0002 /* VQWebPanel.swift */; };
+		01CCAAFE22894C8F0E1D7954 /* VQComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892593BD015C0DDB35C01141 /* VQComponents.swift */; };
+		0C8469A8E67A4398FE3766D9 /* VQSpans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA8FF0EC667AF87E678374F /* VQSpans.swift */; };
+		10DA17A370BA88D51029D453 /* VQStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFB713C50BB74E3DD2F3B3A /* VQStore.swift */; };
+		1662CF1878C5244AFB50FE0D /* VQSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FEDFA917891CFE8CFCCC59 /* VQSettingsView.swift */; };
+		1EEA51983753274AB95AFFFB /* VQHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF5B8132E84ACEA15E783ED /* VQHistoryView.swift */; };
+		355A154968B20BE59FB6FBC3 /* VQObservancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA4ADE5D7552166B31C152 /* VQObservancesView.swift */; };
+		3825FC42ADBB03E2565B1E0B /* VQFastingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D805D5524B4A22A1C758B8E /* VQFastingView.swift */; };
+		431DEF44F3564485424F0E36 /* VindiqusiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B23A700116863814427AD5 /* VindiqusiaApp.swift */; };
+		43AF85AD03DAFA1CA83F9DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E065888B8FF044EA0EDA7EA7 /* Assets.xcassets */; };
+		5302499142E614F1C33CE448 /* VQTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D130EE79E09F77FC60CAD3 /* VQTheme.swift */; };
+		5D912A1509704E2B586DE6EB /* VQMonthsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414C8DC94CD2D292006EA9AE /* VQMonthsData.swift */; };
+		6F9068973FBB657284610147 /* VQConvertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06CF14BE42C923151B99034 /* VQConvertView.swift */; };
+		750246C486511144120472E7 /* VQObservances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518ECFC185335CC5B641BEFB /* VQObservances.swift */; };
+		8FBF15A668A1E584A8DC9B03 /* VQPersonalDatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8554CBC01A7AAC24B0A3CD /* VQPersonalDatesView.swift */; };
+		93183A487FD5ADE7BC9BBC29 /* VQWebSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880C9E34D9B7C2C90268251E /* VQWebSheet.swift */; };
+		A4C1A908CAEE1C23CF6AFEF0 /* VQCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BE8B74A948BFF814BEE577 /* VQCalendarView.swift */; };
+		AFF396ABC4184AC3B77CADDB /* VQDayDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1234489624BA4F71D835A030 /* VQDayDetailView.swift */; };
+		BD757A92E55BB29033F3AA09 /* VQDatePickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B967EF56589B66AF882AA2EA /* VQDatePickers.swift */; };
+		BF48A91A98928F70A82E7E83 /* VQMonthsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D008FEAFF4F8ED971443B85 /* VQMonthsView.swift */; };
+		C01B21D67BCC02BCC982C1DA /* VQHistoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B8D96EE9898CB78C70E567 /* VQHistoryData.swift */; };
+		D0A641CA938E339B782452FD /* VQTodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA850FBFF56927A9B3475AE /* VQTodayView.swift */; };
+		D41A5381910D1CFB2224B390 /* VQFasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A564661DAA342B7EF9A98B /* VQFasting.swift */; };
+		E354517F741F0F0C52B18632 /* VQRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2D587E644622C777AB6E5D /* VQRootView.swift */; };
+		E474A9C4A272B1D71B8FBB5D /* VQLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98131FC1803A7E35C59C8D /* VQLibraryView.swift */; };
+		E4C294AD432413038E97C266 /* VQCalendarEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA41E10C19690447D2C187 /* VQCalendarEngine.swift */; };
+		F65EA7F4A3558563DCDCA588 /* VQGlyphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54DFFBA04FEDE0EF3DA3731 /* VQGlyphs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0DEFA0000000000000A0001 /* VQLoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQLoadingScreen.swift; sourceTree = "<group>"; };
+		C0DEFA0000000000000A0002 /* VQWebPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQWebPanel.swift; sourceTree = "<group>"; };
+		01D130EE79E09F77FC60CAD3 /* VQTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQTheme.swift; sourceTree = "<group>"; };
+		0D008FEAFF4F8ED971443B85 /* VQMonthsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQMonthsView.swift; sourceTree = "<group>"; };
+		1234489624BA4F71D835A030 /* VQDayDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQDayDetailView.swift; sourceTree = "<group>"; };
+		13A564661DAA342B7EF9A98B /* VQFasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQFasting.swift; sourceTree = "<group>"; };
+		2AA850FBFF56927A9B3475AE /* VQTodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQTodayView.swift; sourceTree = "<group>"; };
+		40B23A700116863814427AD5 /* VindiqusiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VindiqusiaApp.swift; sourceTree = "<group>"; };
+		414C8DC94CD2D292006EA9AE /* VQMonthsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQMonthsData.swift; sourceTree = "<group>"; };
+		4EA8FF0EC667AF87E678374F /* VQSpans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQSpans.swift; sourceTree = "<group>"; };
+		518ECFC185335CC5B641BEFB /* VQObservances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQObservances.swift; sourceTree = "<group>"; };
+		6D805D5524B4A22A1C758B8E /* VQFastingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQFastingView.swift; sourceTree = "<group>"; };
+		7EF5B8132E84ACEA15E783ED /* VQHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQHistoryView.swift; sourceTree = "<group>"; };
+		880C9E34D9B7C2C90268251E /* VQWebSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQWebSheet.swift; sourceTree = "<group>"; };
+		892593BD015C0DDB35C01141 /* VQComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQComponents.swift; sourceTree = "<group>"; };
+		99FEDFA917891CFE8CFCCC59 /* VQSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQSettingsView.swift; sourceTree = "<group>"; };
+		A3B8D96EE9898CB78C70E567 /* VQHistoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQHistoryData.swift; sourceTree = "<group>"; };
+		B8BE8B74A948BFF814BEE577 /* VQCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQCalendarView.swift; sourceTree = "<group>"; };
+		B967EF56589B66AF882AA2EA /* VQDatePickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQDatePickers.swift; sourceTree = "<group>"; };
+		CF2D587E644622C777AB6E5D /* VQRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQRootView.swift; sourceTree = "<group>"; };
+		CF8554CBC01A7AAC24B0A3CD /* VQPersonalDatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQPersonalDatesView.swift; sourceTree = "<group>"; };
+		DCCA4ADE5D7552166B31C152 /* VQObservancesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQObservancesView.swift; sourceTree = "<group>"; };
+		E065888B8FF044EA0EDA7EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E06CF14BE42C923151B99034 /* VQConvertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQConvertView.swift; sourceTree = "<group>"; };
+		E54DFFBA04FEDE0EF3DA3731 /* VQGlyphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQGlyphs.swift; sourceTree = "<group>"; };
+		EC98131FC1803A7E35C59C8D /* VQLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQLibraryView.swift; sourceTree = "<group>"; };
+		ED6322D8B3B62CE2E9D170AA /* Vindiqusia.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "Vindiqusia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFB713C50BB74E3DD2F3B3A /* VQStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQStore.swift; sourceTree = "<group>"; };
+		FBBA41E10C19690447D2C187 /* VQCalendarEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VQCalendarEngine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1F09A09C2EA39D2B87578C8A /* Vindiqusia */ = {
+			isa = PBXGroup;
+			children = (
+				EE3FC32350E507278853CC0A /* Sources */,
+				E065888B8FF044EA0EDA7EA7 /* Assets.xcassets */,
+			);
+			path = Vindiqusia;
+			sourceTree = "<group>";
+		};
+		550426E6AE1EBA859CF55958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED6322D8B3B62CE2E9D170AA /* Vindiqusia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59725A2EFD4840DB01EB4FAA = {
+			isa = PBXGroup;
+			children = (
+				1F09A09C2EA39D2B87578C8A /* Vindiqusia */,
+				550426E6AE1EBA859CF55958 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE3FC32350E507278853CC0A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				40B23A700116863814427AD5 /* VindiqusiaApp.swift */,
+				FBBA41E10C19690447D2C187 /* VQCalendarEngine.swift */,
+				B8BE8B74A948BFF814BEE577 /* VQCalendarView.swift */,
+				892593BD015C0DDB35C01141 /* VQComponents.swift */,
+				E06CF14BE42C923151B99034 /* VQConvertView.swift */,
+				B967EF56589B66AF882AA2EA /* VQDatePickers.swift */,
+				1234489624BA4F71D835A030 /* VQDayDetailView.swift */,
+				13A564661DAA342B7EF9A98B /* VQFasting.swift */,
+				6D805D5524B4A22A1C758B8E /* VQFastingView.swift */,
+				E54DFFBA04FEDE0EF3DA3731 /* VQGlyphs.swift */,
+				C0DEFA0000000000000A0001 /* VQLoadingScreen.swift */,
+				C0DEFA0000000000000A0002 /* VQWebPanel.swift */,
+				A3B8D96EE9898CB78C70E567 /* VQHistoryData.swift */,
+				7EF5B8132E84ACEA15E783ED /* VQHistoryView.swift */,
+				EC98131FC1803A7E35C59C8D /* VQLibraryView.swift */,
+				414C8DC94CD2D292006EA9AE /* VQMonthsData.swift */,
+				0D008FEAFF4F8ED971443B85 /* VQMonthsView.swift */,
+				518ECFC185335CC5B641BEFB /* VQObservances.swift */,
+				DCCA4ADE5D7552166B31C152 /* VQObservancesView.swift */,
+				CF8554CBC01A7AAC24B0A3CD /* VQPersonalDatesView.swift */,
+				CF2D587E644622C777AB6E5D /* VQRootView.swift */,
+				99FEDFA917891CFE8CFCCC59 /* VQSettingsView.swift */,
+				4EA8FF0EC667AF87E678374F /* VQSpans.swift */,
+				EFFB713C50BB74E3DD2F3B3A /* VQStore.swift */,
+				01D130EE79E09F77FC60CAD3 /* VQTheme.swift */,
+				2AA850FBFF56927A9B3475AE /* VQTodayView.swift */,
+				880C9E34D9B7C2C90268251E /* VQWebSheet.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE80C64C4976E23E46435E14 /* Vindiqusia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238A51878191297432C0442A /* Build configuration list for PBXNativeTarget "Vindiqusia" */;
+			buildPhases = (
+				FAD9EA73B4293BAEFAF816E2 /* Sources */,
+				A16AC5B1B1033366258D8BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vindiqusia";
+			packageProductDependencies = (
+			);
+			productName = "Vindiqusia";
+			productReference = ED6322D8B3B62CE2E9D170AA /* Vindiqusia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1C6C72953756A2C8ADC9864 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BE80C64C4976E23E46435E14 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = E4742C922DF3BA5B156FAF53 /* Build configuration list for PBXProject "Vindiqusia" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 59725A2EFD4840DB01EB4FAA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 550426E6AE1EBA859CF55958 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE80C64C4976E23E46435E14 /* Vindiqusia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A16AC5B1B1033366258D8BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AF85AD03DAFA1CA83F9DF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD9EA73B4293BAEFAF816E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C294AD432413038E97C266 /* VQCalendarEngine.swift in Sources */,
+				A4C1A908CAEE1C23CF6AFEF0 /* VQCalendarView.swift in Sources */,
+				01CCAAFE22894C8F0E1D7954 /* VQComponents.swift in Sources */,
+				6F9068973FBB657284610147 /* VQConvertView.swift in Sources */,
+				BD757A92E55BB29033F3AA09 /* VQDatePickers.swift in Sources */,
+				AFF396ABC4184AC3B77CADDB /* VQDayDetailView.swift in Sources */,
+				D41A5381910D1CFB2224B390 /* VQFasting.swift in Sources */,
+				3825FC42ADBB03E2565B1E0B /* VQFastingView.swift in Sources */,
+				F65EA7F4A3558563DCDCA588 /* VQGlyphs.swift in Sources */,
+				C0DEBF0000000000000A0001 /* VQLoadingScreen.swift in Sources */,
+				C0DEBF0000000000000A0002 /* VQWebPanel.swift in Sources */,
+				C01B21D67BCC02BCC982C1DA /* VQHistoryData.swift in Sources */,
+				1EEA51983753274AB95AFFFB /* VQHistoryView.swift in Sources */,
+				E474A9C4A272B1D71B8FBB5D /* VQLibraryView.swift in Sources */,
+				5D912A1509704E2B586DE6EB /* VQMonthsData.swift in Sources */,
+				BF48A91A98928F70A82E7E83 /* VQMonthsView.swift in Sources */,
+				750246C486511144120472E7 /* VQObservances.swift in Sources */,
+				355A154968B20BE59FB6FBC3 /* VQObservancesView.swift in Sources */,
+				8FBF15A668A1E584A8DC9B03 /* VQPersonalDatesView.swift in Sources */,
+				E354517F741F0F0C52B18632 /* VQRootView.swift in Sources */,
+				1662CF1878C5244AFB50FE0D /* VQSettingsView.swift in Sources */,
+				0C8469A8E67A4398FE3766D9 /* VQSpans.swift in Sources */,
+				10DA17A370BA88D51029D453 /* VQStore.swift in Sources */,
+				5302499142E614F1C33CE448 /* VQTheme.swift in Sources */,
+				D0A641CA938E339B782452FD /* VQTodayView.swift in Sources */,
+				93183A487FD5ADE7BC9BBC29 /* VQWebSheet.swift in Sources */,
+				431DEF44F3564485424F0E36 /* VindiqusiaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		312B6AB47B11740C9EFDA4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Vindiqusia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vindiqusia.app;
+				PRODUCT_NAME = "Vindiqusia";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5F0C9F05D3CEB512FB0A27B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vindiqusia.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		855DCA9D0606454537B888CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vindiqusia.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D3A2F9A01918BA39C8F212BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Vindiqusia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vindiqusia.app;
+				PRODUCT_NAME = "Vindiqusia";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		238A51878191297432C0442A /* Build configuration list for PBXNativeTarget "Vindiqusia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312B6AB47B11740C9EFDA4D2 /* Debug */,
+				D3A2F9A01918BA39C8F212BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E4742C922DF3BA5B156FAF53 /* Build configuration list for PBXProject "Vindiqusia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855DCA9D0606454537B888CD /* Debug */,
+				5F0C9F05D3CEB512FB0A27B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1C6C72953756A2C8ADC9864 /* Project object */;
+}
